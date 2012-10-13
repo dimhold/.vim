@@ -198,3 +198,9 @@ endif
 
 " vim: set fenc=utf-8 tw=80 sw=2 sts=2 et foldmethod=marker :
 
+"NERDTree"
+"open a NERDTree automatically when vim starts up"
+autocmd vimenter * NERDTree
+
+"close vim if the only window left open is a NERDTree"
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
