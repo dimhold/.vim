@@ -198,6 +198,10 @@ endif
 
 " vim: set fenc=utf-8 tw=80 sw=2 sts=2 et foldmethod=marker :
 
+"pathogen"
+call pathogen#infect()
+filetype plugin indent on
+
 "NERDTree"
 "open a NERDTree automatically when vim starts up"
 autocmd vimenter * NERDTree
