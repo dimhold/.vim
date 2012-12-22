@@ -9,7 +9,12 @@ Bundle 'gmarik/vundle'
 
 "All Bundles here:"
 "github repositories:"
+
+" Filesytem browser "
 Bundle 'scrooloose/nerdtree'
+
+" Huge set of colorschemes "
+Bundle 'flazz/vim-colorschemes'
 
 "Bundle 'tpope/vim-fugitive'
 "Bundle 'Lokaltog/vim-easymotion'
