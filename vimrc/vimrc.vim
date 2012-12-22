@@ -116,6 +116,13 @@ endif " has("autocmd")
 set fileformat=unix
 set ffs=unix,dos,mac
 
+" The width of a Tab "
+set tabstop=4
+
+set shiftwidth=4
+" The number of columns for a tab "
+set softtabstop=4
+
 source ~/.vim/vimrc/vundle.vim
 source ~/.vim/vimrc/nerdtree.vim
 source ~/.vim/vimrc/pathogen.vim
