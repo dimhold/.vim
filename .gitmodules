@@ -7,6 +7,6 @@
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
-[submodule "bundle/colorschemes"]
-	path = bundle/colorschemes
+[submodule "bundle/vim-colorschemes"]
+	path = bundle/vim-colorschemes
 	url = git@github.com:flazz/vim-colorschemes.git
