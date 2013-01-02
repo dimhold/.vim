@@ -7,24 +7,47 @@ call vundle#rc()
 ""Required vundle repository. Don't delete it:"
 Bundle 'gmarik/vundle'
 
-"All Bundles here:"
-"github repositories:"
+
+
+
+"Github repositories:"
+
+"File manager plugin"
 Bundle 'scrooloose/nerdtree'
+"Snippet plugin"
+	"dependencies:"
+	Bundle "MarcWeber/vim-addon-mw-utils"
+	Bundle "tomtom/tlib_vim"
+	Bundle "honza/snipmate-snippets"
+Bundle 'garbas/vim-snipmate'
+
 
 "Bundle 'tpope/vim-fugitive'
 "Bundle 'Lokaltog/vim-easymotion'
 "Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 "Bundle 'tpope/vim-rails.git'
 
+
+
+
 "vim-scripts repasitories:"
 ""Bundle 'L9'
 "Bundle 'FuzzyFinder'
-"
+
+
+
+
+
 ""Custom git repositories:"
 "Bundle 'git://git.wincent.com/command-t.git'
 "
 "iletype plugin indent on     " required!
-"
+
+
+
+
+
+
 ""Vundle help:"
 " :BundleList          - list configured bundles "
 " :BundleInstall(!)    - install(update) bundles "
