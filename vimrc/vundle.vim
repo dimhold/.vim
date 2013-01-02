@@ -19,8 +19,11 @@ Bundle 'scrooloose/nerdtree'
 	Bundle "tomtom/tlib_vim"
 	Bundle "honza/snipmate-snippets"
 Bundle 'garbas/vim-snipmate'
-" Huge set of colorschemes "
+"Huge set of colorschemes "
 Bundle 'flazz/vim-colorschemes'
+
+"file-type sensible comments"
+Bundle 'tomtom/tcomment_vim'
 
 "Bundle 'tpope/vim-fugitive'
 "Bundle 'Lokaltog/vim-easymotion'
